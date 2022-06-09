@@ -51,3 +51,8 @@ select {
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
 }
+
+.settings.hide {
+  transform: translateY(-100%);
+}
+
