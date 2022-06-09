@@ -41,3 +41,37 @@ let score = 0;
 // Init time
 let time = 10;
 
+// Set difficulty to value
+let difficulty =
+    localStorage.getItem("difficulty") !== null
+        ? localStorage.getItem("difficulty")
+        : "medium";
+
+// Set difficulty select value
+difficultySelect.value =
+    localStorage.getItem("difficulty") !== null
+        ? localStorage.getItem("difficulty")
+        : "medium";
+
+// Focus on text on start
+text.focus();
+
+// Start counting down
+const timeInterval = setInterval(updateTime, 1000);
+
+// Generate random word from array
+function getRandomWord() {
+    return words[Math.floor(Math.random() * words.length)];
+}
+
+// Add word to DOM
+function addWordToDOM() {
+    randomWord = getRandomWord();
+    word.innerHTML = randomWord;
+}
+
+// Update score
+function updateScore() {
+    score++;
+    scoreEl.innerHTML = score;
+}
