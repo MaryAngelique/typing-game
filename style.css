@@ -31,7 +31,14 @@ select {
     background-color: #e46363;
 }
 
+select:focus,
+button:focus {
+    outline: 0;
+}
+
 .settings-btn {
+    background-color: #e46363;
+    color: #f7f7f9;
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -42,7 +49,7 @@ select {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #e46363;
     height: 70px;
     color: #fff;
     display: flex;
@@ -56,3 +63,58 @@ select {
   transform: translateY(-100%);
 }
 
+.container {
+    background-color: #e46363;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    position: relative;
+    text-align: center;
+    width: 500px;
+}
+
+h2 {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0 0 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 300px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.score-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.time-container {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.end-game-container {
+    background-color: inherit;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
