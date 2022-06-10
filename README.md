@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ GitHub Solution](GitHub )
-- Live Site URL: [ Website](Deployed website)
+- Solution URL: [Typing Game GitHub Solution](https://github.com/MaryAngelique/typing-game)
+- Live Site URL: Typing Game Website
 
 ## My process
 
