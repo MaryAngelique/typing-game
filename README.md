@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Typing Game GitHub Solution](https://github.com/MaryAngelique/typing-game)
-- Live Site URL: Typing Game Website
+- Live Site URL: [Typing Game Website](https://typing-game-alpha.vercel.app/)
 
 ## My process
 
