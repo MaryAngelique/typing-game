@@ -1,6 +1,6 @@
 # Typing Game
 
-**## Table of contents
+## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -16,11 +16,11 @@
 
 Users should be able to:
 
-#### - 
+#### - Change the difficulty of the game
 
-#### - 
+#### - Get a random word
 
-#### - 
+#### - See te time and score
 
 
 ### Links
@@ -34,14 +34,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - VanillaJS
-- Asynchronous JavaScript
-- API Request
 - CSS custom properties
 - CSS Flexbox properties
 - CSS Grid properties
-- Media Queries
 
 ## Author
 
 - LinkedIn - [Mary Angelique A. Abacajan](https://www.linkedin.com/in/mary-angelique-abacajan/)
-- Github - [@MaryAngelique](https://www.github.com/MaryAngelique)**
+- Github - [@MaryAngelique](https://www.github.com/MaryAngelique)
